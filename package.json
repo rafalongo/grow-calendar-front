@@ -9,11 +9,7 @@
   "author": "Rafael Longo",
   "license": "ISC",
   "scripts": {
-    "dev": "next dev",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
