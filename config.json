@@ -1,0 +1,6 @@
+{
+    "notused": {
+        "urlApi": "https://growcalendar.soulseeds.com.br/public_html/api"
+    },
+    "urlApi": "http://localhost:8080/public_html/api"
+}

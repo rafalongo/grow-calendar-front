@@ -1,0 +1,56 @@
+.week {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0;
+}
+
+.vega.line_1 {
+    background: #b6d7a8;
+}
+.vega.line_1.on {
+    background: #e2efdc;
+}
+
+.vega.line_2 {
+    background: #76a5af;
+}
+.vega.line_2.on {
+    background: #c8dbdf;
+}
+
+.flora.line_1 {
+    background: #f9ca9c;
+}
+.flora.line_1.on {
+    background: #fce9d7;
+}
+
+.flora.line_2 {
+    background: #ea9898;
+}
+.flora.line_2.on {
+    background: #f6d6d6;
+}
+
+.flora.line_3 {
+    background: #b4a7d6;
+}
+.flora.line_3.on {
+    background: #e1dcee;
+}
+
+.title {
+    background: #333;
+    border: 1px solid #fff;
+    color: #fff;
+    grid-column: 1/-2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}

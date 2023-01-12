@@ -1,0 +1,130 @@
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 680px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+    gap: 16px;
+}
+
+.menu dd {
+    background: #f0f0f0;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 8px;
+    padding: 0.4rem 1rem 0.6rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu dd.active {
+    background: #fffcd6;
+    cursor: auto;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.infos,
+.list_points {
+    background: #fffcd6;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.infos {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: grid;
+    grid-template-columns: 36% calc(64% - 8px);
+    column-gap: 8px;
+    row-gap: 12px;
+}
+
+.list_points {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    row-gap: 4px;
+    list-style: none;
+}
+
+.list_points li {
+    display: grid;
+    grid-template-columns: 25% calc(75% - 8px);
+    column-gap: 8px;
+    padding: 0.325rem 0;
+}
+
+.list_points li.odd {
+    background: rgba(255,255,255,0.5);
+}
+.list_points li.even {
+    background: rgba(0,0,0,0.05);
+}
+
+.infos dt,
+.list_points strong {
+    font-weight: 600;
+    text-align: right;
+}
+
+.infos dd,
+.list_points span {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+textarea {
+    background: rgba(0,0,0,0.05);
+    border: 0;
+    box-sizing: border-box;
+    padding: 0.25rem;
+}
+
+input[type='text'],
+textarea {
+    width: 100%;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    background-color: #bd1818;
+    border: 0;
+    color: #fff;
+    padding: 0.825rem 2rem;
+}
