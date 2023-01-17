@@ -3,11 +3,12 @@
     background-color: #00000012;
     border: 1px solid #fff;
     display: flex;
+    /* flex-direction: column; */
     margin: 0;
     font-size: 0.875rem;
     font-weight: 400;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 46px;
     position: relative;
 }
